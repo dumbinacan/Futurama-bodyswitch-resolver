@@ -1,5 +1,5 @@
 [package]
-name = "Futurama-bodyswitch-resolver"
+name = "futurama-bodyswitch-resolver"
 version = "0.1.0"
 edition = "2021"
 
