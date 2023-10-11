@@ -67,6 +67,11 @@ impl Person {
         self.mind = newmind;
         oldmind
     }
+    #[cfg(test)]
+    pub fn mind(self) -> usize { self.mind }
+
+    #[cfg(test)]
+    pub fn body(self) -> usize { self.body }
 
 }
 
